@@ -1,0 +1,96 @@
+h1{
+    color:darkturquoise
+}
+h2{
+    color:crimson;
+    text-decoration:underline;
+}
+h1,h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Banner */
+/* To target any element with an id use #, then id value */
+#banner{
+    background-color:darkkhaki;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#banner p{
+    margin: 0;
+}
+
+/* Navigation Bar */
+#nav, nav{
+    background-color:cadetblue;
+    /* make the element bigger */
+    padding: 10px;
+    text-align: center;
+}
+/* Anchor tags within the navigation bar */
+#nav a, nav a{
+    color: aliceblue;
+    /* removes underline */
+    text-decoration: none;
+    font-size: large;
+    /* pushed everything in a particular direction */
+    margin-right: 10px;
+}
+/* Hover effect for navigation links */
+#nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+/* Second method */
+nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+#footer, footer{
+    background-color: #E7E9EB;
+    min-height: 150px;
+    text-align: center;
+
+}
+
+#footer a, footer a{
+    color: blue;
+    font-size: large;
+    margin-right: 10px;
+}
+
+/* Main Content Area */
+#main, main{
+    /* takes up the certain value on the screen */
+    width: 80%;
+    /* setting a margin with nothing at the top and auto on the other sides */
+    margin: 0 auto;
+}
+
+article{
+    /* Same process, but different method than <div> */
+    margin-bottom: 20px;
+}
+
+/* Class Approach: set of rules I can use on any element within reason */
+.logo{
+    height: 50px;
+    width: 50px
+}
+
+.changeText{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.changeColor{
+    color: darkorange;
+}
+

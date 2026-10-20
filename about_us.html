@@ -4,36 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <!-- Internal Styles w/ CSS -->
+    <link rel="stylesheet" href="stylesheets/site.css"/>
+
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact Us</a>
+    <header>
+        <div id="banner">
+            <p> Notification</p>
+        </div>
+        <nav>
+             <!-- Anchor tags for navigation -->
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
 
-    <h1 style="color: cornflowerblue;">About Us</h1>
-    <hr/>
+    <!-- Main Content Area -->
+    <main>
+        <h1>About Us</h1>
+        <hr/>
+        <article>
+            <h2>Animal Reservation Agency</h2>
+            <img src="images/cheetah.jpg" alt="Cheetah" height="300" width="400"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <br/>
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+        
+        <article>
+            <h2>Daily Tasks</h2>
+            <ul>
+                <li>Feed the animals</li>
+                <li>Clean the enclosures</li>
+                <li>Update the reservation system</li>
+            </ul>
 
-    <h2>Animal Reservation Agency</h2>
-    <img src="images/cheetah.jpg" alt="Cheetah" height="300" width="400"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        <br/>
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
 
-    <h2>Daily Tasks</h2>
-    <ul>
-        <li>Feed the animals</li>
-        <li>Clean the enclosures</li>
-        <li>Update the reservation system</li>
-    </ul>
+        <article>
+            <h2>How you can join?</h2>
+            <ol>
+                <li>Submit an application</li>
+                <li>Attend an interview</li>
+                <li>Complete the training program</li>
+                <li
+                    <a href="contact_us.html">Contact Office</a>
+                </li>
+            </ol>
+        </article>
 
-    <h2>How you can join?</h2>
-    <ol>
-        <li>Submit an application</li>
-        <li>Attend an interview</li>
-        <li>Complete the training program</li>
-        <li
-            <a href="contact_us.html">Contact Office</a>
-        </li>
-    </ol>
+    </main>
+    <footer>
+        <!-- Embedding link -->
+        <br/><br/>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.wikipedia.org" target="Wikipedia">Wikipedia</a>
+        <a href="https://www.youtube.com" target="YouTube">YouTube</a>
+
+    </footer>
+
 </body>
 </html>
