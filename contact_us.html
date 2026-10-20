@@ -71,7 +71,7 @@
 
         <article>
             <h2>General Inquiry</h2>
-            <form action="confirmation.html">  
+            <form action="confirmation.html" id="contactForm">  
             <label for="fullname">Name: *</label><br/>
             <input required type="text" id="fullname" name="fullname"/>
             <br/><br/>
@@ -85,7 +85,10 @@
             <label for="inquiry">State your inquiry: *</label><br/>
             <textarea required cols="50" rows="10" maxlength="150" id="inquiry"></textarea>
             <br/><br/>
+            <!-- Submit Button -->
             <input type="submit" value="Submit"/>
+            <!-- Calling InLine JavaScript -->
+            <button type="button" onclick="ClearForm()">Clear</button>
             </form>
         </article>
     </main>
@@ -97,8 +100,11 @@
         <a href="https://www.google.com">Google</a>
         <a href="https://www.wikipedia.org" target="Wikipedia">Wikipedia</a>
         <a href="https://www.youtube.com" target="YouTube">YouTube</a>
-
     </footer>
+    
+    <!-- InLine JavaScript -->
+    <!-- Note you can't comment inside the script section -->
+    <script src="scripts/site.js"></script>
 
 </body>
 </html>
