@@ -17,3 +17,23 @@ $('#jqueryBtn').click(function(){
     // //retrive all p tags and hide them
     $('p').hide();
 });
+
+$(function (){
+    // initialized the array text is in the page name
+    var pages = ['index', 'about', 'contact'];
+    // looks at what page you're on
+    var pathname = window.location.pathname;
+    // iterate through every nav link on that page
+    $('.nav-link').each(function(item){
+        // if path name looks like any of these pages
+        if(pathname.includes(pages[item])){
+            // make the page in the nav bar active
+            $(this).addClass('active');
+            // change the font on that current page
+            $(this).attr('aria-current', 'page');
+        }
+
+    })
+}
+
+);

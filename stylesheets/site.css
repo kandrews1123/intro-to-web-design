@@ -8,14 +8,11 @@ h2{
 h1,h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-p{
-    font-family: 'Courier New', Courier, monospace;
-}
 
 /* Banner */
 /* To target any element with an id use #, then id value */
 #banner{
-    background-color:darkkhaki;
+    /* background-color:darkkhaki; */
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: center;
@@ -25,33 +22,37 @@ p{
 }
 
 /* Navigation Bar */
+/*
 #nav, nav{
     background-color:cadetblue;
-    /* make the element bigger */
-    padding: 10px;
-    text-align: center;
-}
+    /* make the element bigger */ 
+    /*padding: 10px;
+    text-align: center; } 
 /* Anchor tags within the navigation bar */
+/*
 #nav a, nav a{
     color: aliceblue;
     /* removes underline */
-    text-decoration: none;
+    /*text-decoration: none;
     font-size: large;
     /* pushed everything in a particular direction */
-    margin-right: 10px;
-}
+    /*margin-right: 10px;
+} 
+
 /* Hover effect for navigation links */
-#nav a:hover{
+/* #nav a:hover{
     background-color: aquamarine;
     color: black;
 }
 
 /* Second method */
+/*
 nav a:hover{
     background-color: aquamarine;
     color: black;
-}
-
+} 
+*/
+/*
 #footer, footer{
     background-color: #E7E9EB;
     min-height: 150px;
@@ -64,14 +65,14 @@ nav a:hover{
     font-size: large;
     margin-right: 10px;
 }
-
+*/
 /* Main Content Area */
-#main, main{
+/* #main, main{
     /* takes up the certain value on the screen */
-    width: 80%;
+    /*width: 80%;*/
     /* setting a margin with nothing at the top and auto on the other sides */
-    margin: 0 auto;
-}
+    /*margin: 0 auto;
+} */
 
 article{
     /* Same process, but different method than <div> */

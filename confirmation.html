@@ -4,27 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmation</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
     <!-- Internal Styles w/ CSS -->
     <link rel="stylesheet" href="stylesheets/site.css"/>
 </head>
 <body>
     <header>
-        <div id="banner">
-            <p> Notification</p>
+        <!-- Banner -->
+        <div id="banner" class="bg-secondary text-white aligned-center">
+            <p> Random website notification </p>
         </div>
-        <nav>
-             <!-- Anchor tags for navigation -->
-            <a href="index.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="contact_us.html">Contact Us</a>
-        </nav>
+        <nav class="navbar sm:navbar-expand bg-primary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Animal Protection</a>
+                    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                    </button>
+                    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <div class="nav navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                        <a class="nav-link" href="contact_us.html">Contact Us</a>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+                </nav>
     </header>
+    <main class="container">
 
     <h1> Inquiry Submitted </h1>
     <hr
-    <article>
-        <h2>Confirmation</h2>
-        <p>Thank you for your inquiry. We will get back to you soon.</p>
-    </article>
+        <article>
+            <h2>Confirmation</h2>
+            <p>Thank you for your inquiry. We will get back to you soon.</p>
+        </article>
+    </main>
+
+            <!-- Footer -->
+    <footer class="py-3 mt-4 bg-secondary" data-bs-theme="dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href:"index.html" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href:"about_us.html" class="nav-link px-2 text-body-secondary">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href:"contact_us.html" class="nav-link px-2 text-body-secondary">Contact Us</a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">
+            &copy;
+        </p>
+    </footer>
+
+     <!-- For locally, download jquery file and src it -->
+        <script src="scripts/jquery.min.js"></script>
+        <!-- For locally, download bootstrap file and src it -->
+        <script src="scripts/bootstrap.min.js"></script>
+        <!-- For public use, use the CDN link -->
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <script src="scripts/site.js"></script>
 </body>
 </html>
